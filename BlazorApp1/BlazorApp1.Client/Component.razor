@@ -1,0 +1,11 @@
+﻿@rendermode InteractiveAuto
+
+<p>@Ok?.Value</p>
+<p>@NotOk?.Value</p>
+<p>@AnotherNotOk?.Value</p>
+
+@code {
+    [Parameter] public Ok? Ok { get; set; }
+    [Parameter] public NotOk? NotOk { get; set; }
+    [Parameter] public AnotherNotOk? AnotherNotOk { get; set; }
+}

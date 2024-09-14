@@ -1,0 +1,11 @@
+﻿@page "/"
+
+@* <Component Ok="@_ok" /> *@
+<Component NotOk="@_notOk" />
+@* <Component AnotherNotOk="@_anotherNotOk" /> *@
+
+@code {
+    private Ok _ok = new( "Ok", "" );
+    private NotOk _notOk = new( "Not Ok", "" );
+    private AnotherNotOk _anotherNotOk = new( "Another Not Ok", "" );
+}
